@@ -1,3 +1,7 @@
+#app {
+    text-align: center;
+}
+
 input[type=username], select {
     width: 100%;
     padding: 12px 20px;
@@ -29,4 +33,8 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.profileView {
+    background-color: rebeccapurple ;
 }

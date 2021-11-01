@@ -13,11 +13,7 @@ function checkUserCredentials() {
         if (usernameInput === user.username && passwordInput === user.password){
             // if (passwordInput === user.password)
              {
-                alert("Velkommen inn mein fürer")
-                console.log("successful login");
-                loginSuccess = true;
-                model.app.loggedInUser = user.username;
-
+                model.app.loggedInUser = user.userinformation;
                 model.app.currentPage = "Profile";
                 viewSelector();
             } 
