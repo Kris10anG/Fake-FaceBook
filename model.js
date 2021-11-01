@@ -8,8 +8,8 @@ const model = {
     },
 
     userCredentialsInput: {
-        username: "",
-        password: "",
+        username: "Anders",
+        password: "evo",
     },
 
     users: [
@@ -19,7 +19,8 @@ const model = {
                 name: "Kristian",
                 age: 19,
                 gender: "XXAttackHelicopter",
-                profilePic: "heli.gif",
+                profile: "box c",
+                background: "box b",
             }
         }, // true -> exite her
         {
@@ -27,18 +28,50 @@ const model = {
             userinformation: {
                 name: "Kristian",
                 age: 19,
-                gender: "XXAttackHelicopter"
+                gender: "XXAttackHelicopter",
+                profile: "Helli.png",
+                background: "Walter.png"
             }
         }, // failed
         { username: "Tomas", password: "forfatter" ,
         userinformation: {
             name: "Tomas",
             age: 25,
-            gender: "Boomer",
+            gender: "Shemale",
+            profile: 'Tomas.png',
+            background: "pride.png",
+            job: "author",
         }},
-        { username: "John Espen", password: "joakim" },
-        { username: "Henrik", password: "Anders" },
-        { username: "Andreas", password: "pizza" },
-        { username: "Anders", password: "evo" },
+        { username: "John Espen", password: "joakim" ,
+        userinformation: {
+            name: "Tomas",
+            age: 25,
+            gender: "Shemale",
+            src: "",
+        }},
+
+        { username: "Henrik", password: "Anders" ,
+        userinformation: {
+            name: "Tomas",
+            age: 25,
+            gender: "Boomer",
+            src: "",
+        }},
+        { username: "Andreas", password: "pizza" ,
+        userinformation: {
+            name: "Tomas",
+            age: 25,
+            gender: "Boomer",
+            src: "",
+        }},
+        { username: "Anders", password: "evo" ,
+        userinformation: {
+            name: "Anders",
+            age: 18,
+            gender: "Male",
+            profile: 'anders.png',
+            background: "pride.png",
+            job: "electrician",
+        }},
     ]
 }
