@@ -8,8 +8,8 @@ const model = {
     },
 
     userCredentialsInput: {
-        username: "Anders",
-        password: "evo",
+        username: "Fredrik",
+        password: "stein",
     },
 
     users: [
@@ -73,5 +73,15 @@ const model = {
             background: "pride.png",
             job: "electrician",
         }},
+        { username: "Fredrik", password: "stein",
+        userinformation: {
+            name: "Fredrik",
+            age: 18,
+            gender: "Male",
+            profile: "fredrik.png",
+            background: "trans.png",
+            job: "CEO of Frysekompaniet"
+
+        }}
     ]
 }
