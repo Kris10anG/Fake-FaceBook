@@ -20,7 +20,8 @@ function viewSelector() {
 function loginView() {    
     let loginHtml = /*html*/`
     <h1 class="header">Velkommen til Kloroform og Ketamin AS</h1>
-    <p> Her vil du fine ting om deg selv du kanskje ikke visste </p>
+    <p> Usernames: Tomas, Bayan, Andreas </p>
+    <p> Skriv inn ${model.app.users.password} </p>
 
     <input type="text" placeholder="Username" value="${model.userCredentialsInput.username}" onchange="model.userCredentialsInput.username = this.value">
     <br>

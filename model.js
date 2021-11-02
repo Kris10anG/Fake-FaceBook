@@ -8,19 +8,19 @@ const model = {
     },
 
     userCredentialsInput: {
-        username: "Fredrik",
-        password: "stein",
+        username: "Tomas",
+        password: "forfatter",
     },
 
     users: [
         {
-            username: "B", password: "1234",
+            username: "Bayan", password: "1234",
             userinformation: {
-                name: "Kristian",
-                age: 19,
-                gender: "XXAttackHelicopter",
-                profile: "box c",
-                background: "box b",
+                name: "Bayan",
+                age: 27,
+                gender: "Male",
+                profile: "",
+                background: "syria.png",
             }
         }, // true -> exite her
         {
@@ -37,17 +37,18 @@ const model = {
         userinformation: {
             name: "Tomas",
             age: 25,
-            gender: "Shemale",
+            gender: "Male",
             profile: 'Tomas.png',
-            background: "pride.png",
-            job: "author",
+            background: "norge.png",
+            job: "Author",
         }},
-        { username: "John Espen", password: "joakim" ,
+        { username: "Andreas", password: "ABC123" ,
         userinformation: {
-            name: "Tomas",
-            age: 25,
-            gender: "Shemale",
-            src: "",
+            name: "Andreas",
+            age: 19,
+            gender: "Male",
+            profile: "",
+            background: "italia.png",
         }},
 
         { username: "Henrik", password: "Anders" ,
