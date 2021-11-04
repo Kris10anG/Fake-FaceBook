@@ -17,12 +17,13 @@ const model = {
             username: "Bayan", password: "1234",
             userinformation: {
                 name: "Bayan",
-                age: 27,
+                age: 28,
                 gender: "Male",
-                profile: "",
+                job: "Mechanic",
+                profile: "alberto.png",
                 background: "syria.png",
             }
-        }, // true -> exite her
+        }, 
         {
             username: "K", password: "123", admin: true,
             userinformation: {
@@ -32,7 +33,7 @@ const model = {
                 profile: "Helli.png",
                 background: "Walter.png"
             }
-        }, // failed
+        }, 
         { username: "Tomas", password: "forfatter" ,
         userinformation: {
             name: "Tomas",
@@ -42,28 +43,22 @@ const model = {
             background: "norge.png",
             job: "Author",
         }},
-        { username: "Andreas", password: "ABC123" ,
-        userinformation: {
-            name: "Andreas",
-            age: 19,
-            gender: "Male",
-            profile: "",
-            background: "italia.png",
-        }},
 
         { username: "Henrik", password: "Anders" ,
         userinformation: {
-            name: "Tomas",
+            name: "Henrik",
             age: 25,
-            gender: "Boomer",
+            gender: "Male",
             src: "",
         }},
         { username: "Andreas", password: "pizza" ,
         userinformation: {
-            name: "Tomas",
-            age: 25,
-            gender: "Boomer",
-            src: "",
+            name: "Andreas",
+            age: 19,
+            gender: "Male",
+            job: "Electrican",
+            profile: "pytt.png",
+            background: "italia.png"
         }},
         { username: "Anders", password: "evo" ,
         userinformation: {
